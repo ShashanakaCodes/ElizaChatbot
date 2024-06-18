@@ -1,3 +1,4 @@
+import calendar
 def print_calendar(year):
     for month in range(1, 13):
         # Display the month and year
