@@ -6,7 +6,10 @@ from textblob import TextBlob
 import time
 import csv
 import os
-
+from Calculator.py import calculator()
+from Calendar.py import calendardate()
+from DateAndTime.py import get_date_and_time()
+from ToDoList.py import todo()
 
 
 
