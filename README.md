@@ -22,6 +22,16 @@ The professional and responsive nature of this code signifies a powerful tool fo
 - Input "date and time" to get the current date and time.
 - The program saves user prompts for feedback and analysis.
 
+### How to use:
+1. Fork the repository and obtain a clone on your local machine
+```
+git clone https://github.com/YOUR-USERNAME/Repository-Name
+```
+2. Install the required python libraries
+```
+pip install -r requirements. txt
+```
+3. Run the file named `main.py` to run the Chatbot
 Developed By<br>
 Shashanka Shekhar Sharma<br>
 12.10.2023
