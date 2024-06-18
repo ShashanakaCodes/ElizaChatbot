@@ -29,7 +29,7 @@ git clone https://github.com/YOUR-USERNAME/Repository-Name
 ```
 2. Install the required python libraries
 ```
-pip install -r requirements. txt
+pip install -r requirements.txt
 ```
 3. Run the file named `main.py` to run the Chatbot
 
