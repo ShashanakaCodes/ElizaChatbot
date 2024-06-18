@@ -3,6 +3,20 @@ import matplotlib.pyplot as plt
 
 result_flag = False
 history_file = "calculator_history.csv"
+#Function to Save Calculations of the CSV File
+def save_to_csv(operation, result):
+    with open(history_file, mode="a", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow([operation, result])
+#Loading the csv file for Calculations
+def load_from_csv():
+    if os.path.exists(history_file):
+        with open(history_file, mode="r") as file:
+            reader = csv.reader(file)
+            for row in reader:
+                print(row)
+    else:
+        print("No history found.")
 
 def add_numbers(result):
     if result_flag:
